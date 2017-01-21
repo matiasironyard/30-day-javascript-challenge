@@ -1,3 +1,15 @@
+.container{
+  padding-top: 20px;
+}
+.nav-wrapper{
+  background-color: #006064;
+}
+.brand-logo{
+  text-transform: uppercase;
+  margin: 5px;
+}
+
+
 .project-title{
   text-transform: uppercase;
   font-weight: bold;
