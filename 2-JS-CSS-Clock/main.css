@@ -1,6 +1,6 @@
 html {
-  background:#018DED url(http://unsplash.it/1500/1000?image=881&blur=50);
-  background-size:cover;
+  background-image: url('https://unsplash.it/300/300/?blur');
+  background-size: cover;
   font-family:'helvetica neue';
   text-align: center;
   font-size: 10px;
@@ -17,16 +17,12 @@ body {
 .clock {
   width: 30rem;
   height: 30rem;
-  border:20px solid white;
-  border-radius:50%;
+  border:10px solid white;
+  border-radius:100%;
   margin:50px auto;
   position: relative;
   padding:2rem;
-  box-shadow:
-    0 0 0 4px rgba(0,0,0,0.1),
-    inset 0 0 0 3px #EFEFEF,
-    inset 0 0 10px black,
-    0 0 10px rgba(0,0,0,0.2);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .clock-face {
@@ -46,4 +42,10 @@ body {
   transform: rotate(90deg);
   transition: all 0.5s;
   transition-timing-function: cubic-bezier(1,-0.6, 0.35, 1.54);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.second-hand{
+  background: yellow;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
